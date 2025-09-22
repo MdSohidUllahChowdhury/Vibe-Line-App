@@ -1,4 +1,4 @@
-name: for_practice
+name: vibe_line
 description: "A new Flutter project."
 
 publish_to: "none"
@@ -14,22 +14,27 @@ dependencies:
   cupertino_icons: ^1.0.6
   flutter_screenutil: ^5.9.3
   get: ^4.6.6
+  flutter_lints: ^3.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
 
-  flutter_lints: ^3.0.0
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/asset/image/AppLogo.png"
 
 flutter:
   uses-material-design: true
   assets:
-    - lib/Assets/images/
+    - lib/asset/image/
 
   fonts:
     - family: Kenia
       fonts:
-        - asset: lib/Assets/fonts/Kenia-Regular.ttf
+        - asset: lib/asset/font/Kenia-Regular.ttf
     - family: Lato
       fonts:
-        - asset: lib/Assets/fonts/Lato-Black.ttf
+        - asset: lib/asset/font/Lato-Black.ttf

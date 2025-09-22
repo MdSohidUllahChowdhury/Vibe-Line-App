@@ -1,4 +1,4 @@
-package com.example.for_practice
+package com.example.vibe_line
 
 import io.flutter.embedding.android.FlutterActivity
 

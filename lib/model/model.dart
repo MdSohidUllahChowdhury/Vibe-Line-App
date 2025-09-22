@@ -5,8 +5,8 @@ class QutosModel {
   final String theQuot;
   final Color cardBgColor;
 
-  QutosModel({
-    required this.writerName, 
-  required this.theQuot,
-  required this.cardBgColor});
+  QutosModel(
+      {required this.writerName,
+      required this.theQuot,
+      required this.cardBgColor});
 }

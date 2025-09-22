@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:for_practice/Controllers/quots_model/model.dart';
+import 'package:vibe_line/model/model.dart';
 
 List<QutosModel> quotsMap = [
   QutosModel(

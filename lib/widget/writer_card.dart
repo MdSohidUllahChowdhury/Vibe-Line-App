@@ -9,7 +9,7 @@ Widget wirterCard(String profilePic, String writerName, Color bgColor) {
         borderRadius: const BorderRadius.all(Radius.circular(30))),
     child: ListTile(
       trailing: CircleAvatar(
-          backgroundColor: const Color(0xFFaaa598),
+          backgroundColor: Colors.white,
           radius: 20,
           child: IconButton(
               onPressed: () {
@@ -19,7 +19,10 @@ Widget wirterCard(String profilePic, String writerName, Color bgColor) {
                   snackPosition: SnackPosition.BOTTOM,
                 );
               },
-              icon: const Icon(Icons.favorite_outline))),
+              icon: const Icon(
+                Icons.favorite_outline,
+                color: Colors.black,
+              ))),
       title: Text(writerName),
       titleTextStyle: const TextStyle(
         fontSize: 15,

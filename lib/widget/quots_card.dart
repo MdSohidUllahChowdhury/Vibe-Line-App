@@ -28,26 +28,32 @@ Widget quotsCard(
         Text(
           quot,
           style: const TextStyle(
-            fontSize: 14,
-            fontFamily: 'Kenia',
-            fontWeight: FontWeight.bold,
-          ),
+              fontSize: 14,
+              fontFamily: 'Kenia',
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.1),
         ),
-        const Divider(height: 8),
+        const Divider(
+          height: 20,
+          color: Color.fromARGB(198, 0, 0, 0),
+          thickness: 6,
+          radius: BorderRadius.all(Radius.circular(26)),
+          endIndent: 130,
+        ),
         const Row(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             CircleAvatar(
-              backgroundImage: AssetImage('lib/Assets/images/pro (8).png'),
+              backgroundImage: AssetImage('lib/asset/image/pic7.png'),
             ),
             CircleAvatar(
-              backgroundImage: AssetImage('lib/Assets/images/pro (6).png'),
+              backgroundImage: AssetImage('lib/asset/image/pic6.png'),
             ),
             CircleAvatar(
-              backgroundImage: AssetImage('lib/Assets/images/pro (2).png'),
+              backgroundImage: AssetImage('lib/asset/image/pic2.png'),
             ),
             CircleAvatar(
-              backgroundImage: AssetImage('lib/Assets/images/pro (4).png'),
+              backgroundImage: AssetImage('lib/asset/image/pic5.png'),
             ),
           ],
         )
